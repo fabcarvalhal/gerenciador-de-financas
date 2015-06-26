@@ -1,8 +1,8 @@
 <!-- Inicio visao geral -->
 
-<div class="ui 	sixteen wide centered column ">
+<div class="ui 	sixteen wide centered column box">
 
-<h3 class="ui top attached header">
+<h3 class="ui top attached header topat">
 <i class="table icon"></i>
 	<div class="content">
 	Visão geral - {mes atual}
@@ -63,7 +63,7 @@
 <!-- Inicio alertas -->
 <div class="ui 	sixteen wide column statsGer">
 
-	<h3 class="ui top attached header">
+	<h3 class="ui top attached header topat">
 <i class="alarm icon"></i>
   <div class="content">
   Alertas
@@ -120,4 +120,37 @@
 <!-- Fim alertas -->
 
 
-<!--  -->
+
+<!-- Inicio graficos -->
+<div class="ui  sixteen wide column statsGer">
+
+  <h3 class="ui top attached header topat">
+<i class="bar chart icon"></i>
+  <div class="content">
+  Gráficos - Despesas por Categoria
+
+  
+  </div>
+  
+</h3>
+<article class="ui attached segment">
+
+  <div id="chart">
+
+
+    <div id="canvas-holder" class="canvashold">
+
+      <canvas id="chart-area" width="250" height="250" ></canvas>
+
+    </div>
+    
+  </div>
+  <div id="my-doughnut-legend"></div>
+</article>
+
+
+
+</div>
+
+
+<!-- Fim graficos -->
