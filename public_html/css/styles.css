@@ -1,0 +1,79 @@
+main{
+ margin-top: 1rem;	
+}
+.child {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.qlqr{
+	float:right;
+
+}
+
+.ui .form input[type='text']:focus{
+	border-color:teal;
+	border-left-width:2px;
+}
+
+.ui .form input[type='password']:focus{
+	border-color:teal;
+	border-left-width:2px;
+}
+
+i.brand{
+	font-size: 30px;
+}
+
+.ui.header.avaHead:first-child {
+  margin-top: 0.835em;
+}
+
+.sidelef a{
+	color: #6dffff!important;
+	width: 18.5rem;
+	
+}
+
+.imgAv{
+
+	width: 185px;
+	height: 185px;
+	position:relative;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	background-image: url('../img/Penguins.jpg');
+	margin-left:2.6rem;
+
+}
+.negTeal{
+	color: #6dffff !important;
+}
+
+header .menu .item{
+	font-weight: bold;
+	color:white;
+}
+
+.notfound{
+	 position: relative;
+  		top: 50%;
+  		
+}
+
+.moneyArea{
+	font-weight: bolder;
+}
+
+.statsGer{
+	position: relative;
+	margin-top:2rem !important;
+}
+
+
+
+.list a:hover{
+	font-weight: bold;
+}
