@@ -1,6 +1,6 @@
 <!-- Inicio visao geral -->
 
-<div class="ui 	sixteen wide centered column box">
+<article class="ui 	sixteen wide centered column box">
 
 <h3 class="ui top attached header topat">
 <i class="table icon"></i>
@@ -11,7 +11,7 @@
 	</div>
 	
 </h3>
-<article class="ui attached segment">
+<div class="ui attached segment">
 
 
 	
@@ -49,11 +49,11 @@
   </a>
  
 	</div>
-</article>
-
-
-
 </div>
+
+
+
+</article>
 
 
 <!-- Fim visao geral -->
@@ -61,7 +61,7 @@
 
 
 <!-- Inicio alertas -->
-<div class="ui 	sixteen wide column statsGer">
+<article class="ui 	sixteen wide column statsGer">
 
 	<h3 class="ui top attached header topat">
 <i class="alarm icon"></i>
@@ -72,12 +72,12 @@
   </div>
   
 </h3>
-<article class="ui attached segment">
+<div class="ui attached segment">
 
 
   
 
-<div class="ui list listAlarms ">
+<div class="ui selection list listAlarms ">
   
   <a class="item">
    <div class="ui right floated  label">Valor alerta</div>
@@ -110,11 +110,11 @@
   </a>
 
   </div>
-</article>
-
-
-
 </div>
+
+
+
+</article>
 
 
 <!-- Fim alertas -->
@@ -122,7 +122,7 @@
 
 
 <!-- Inicio graficos -->
-<div class="ui  sixteen wide column statsGer">
+<article class="ui  sixteen wide column statsGer">
 
   <h3 class="ui top attached header topat">
 <i class="bar chart icon"></i>
@@ -133,7 +133,7 @@
   </div>
   
 </h3>
-<article class="ui attached segment">
+<div class="ui attached segment">
 
   <div id="chart">
 
@@ -146,11 +146,80 @@
     
   </div>
   <div id="my-doughnut-legend"></div>
+</div>
+
+
+
 </article>
 
 
+<!-- Fim graficos -->
+
+
+<!-- Inicio orçamentos -->
+<article class="ui  sixteen wide column statsGer">
+
+  <h3 class="ui top attached header topat">
+<i class="tasks icon"></i>
+  <div class="content">
+  Orçamento do Mês
+
+  
+  </div>
+  
+</h3>
+
+<div class="ui attached segment">
+
+
+<!-- Barra superior - Valor Gasto -->
+    <div class="ui  red attached progress" data-percent="60" id="v-gasto-progress">
+      <div class="bar"></div>
+    </div>
+
+    <!-- Orçamento - Detalhe -->
+    <div class="ui relaxed list">
+
+        <div class="ui down item">
+         <div class="ui right floated label">R$ 100</div>
+   
+          <div class="content">
+            <div class="header">Meta
+          </div>
+            
+          </div>
+        </div>
+
+        <div class="item">
+         <div class="ui right floated inverted red label">R$ 100</div>
+        
+          <div class="content">
+            <div class="header">Valor Gasto
+          </div>
+            
+          </div>
+        </div>  
+
+        <div class="item">
+         <div class="ui right floated inverted orange label">R$ 100</div>
+        
+          <div class="content">
+            <div class="header">Previsto
+          </div>
+            
+          </div>
+        </div>        
+
+    </div>
+
+    <!-- Barra inferior - Despesa Prevista -->
+    <div class="ui bottom indicating warning attached progress" data-percent="80" id="v-previsto-progress">
+      <div class="bar"></div>
+    </div>
 
 </div>
 
 
-<!-- Fim graficos -->
+</article>
+<!-- Fim orçamentos -->
+

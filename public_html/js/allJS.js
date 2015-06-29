@@ -69,3 +69,7 @@ $('.left.sidebar')
           myDoughnut.generateLegend();
           document.getElementById('my-doughnut-legend').innerHTML = myDoughnut.generateLegend();
         };
+
+
+          $('#v-previsto-progress').progress();
+  $('#v-gasto-progress').progress();
