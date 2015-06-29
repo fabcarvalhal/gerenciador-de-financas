@@ -173,7 +173,7 @@
 
 
 <!-- Barra superior - Valor Gasto -->
-    <div class="ui  red attached progress" data-percent="60" id="v-gasto-progress">
+    <div class="ui top red attached progress" data-percent="60" id="v-gasto-progress">
       <div class="bar"></div>
     </div>
 
@@ -213,11 +213,11 @@
     </div>
 
     <!-- Barra inferior - Despesa Prevista -->
-    <div class="ui bottom indicating warning attached progress" data-percent="80" id="v-previsto-progress">
+    <div class="ui bottom attached progress orange" data-percent="80" id="v-previsto-progress">
+      
       <div class="bar"></div>
+    
     </div>
-
-</div>
 
 
 </article>
