@@ -34,6 +34,10 @@
         Despesas
       </a>
       <a class="item">
+        <i class="tasks icon"></i>
+        Orçamentos
+      </a>
+      <a class="item">
         <i class="setting icon"></i>
         Configurações
       </a>
