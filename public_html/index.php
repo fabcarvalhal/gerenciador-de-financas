@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-	<title></title>
+	<title>Gerenciador de Finanças Pessoal</title>
 	<link rel="stylesheet" type="text/css" href="extra_libs/Semantic/dist/semantic.min.css">
   <link rel="stylesheet" type="text/css" href="css/styles.css">	
  
@@ -13,8 +13,10 @@
 <div class="ui inverted labeled sidelef left inline vertical sidebar menu">
   
       <h4 class="ui avaHead header center inverted teal aligned down ">
-        <div class="ui centered imgAv "></div>
-          <p>Nome</p>
+        <div class="ui ">
+           <img class="imgAv" src="../img/Penguins.jpg"></img>
+        </div>
+        <p>Nome</p>
       </h4>
  
       <a class="item">
