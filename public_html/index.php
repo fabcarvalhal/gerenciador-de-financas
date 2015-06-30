@@ -49,7 +49,7 @@
 
 <!--Conteudo da pagina-->
 <div class="ui pusher">
-  <section class="ui page grid">
+  <section class="ui page  grid">
      
 
 

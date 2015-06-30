@@ -7,10 +7,10 @@
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
-<main class="ui page grid child">
+<main class="ui page stackable grid child">
 
-
-	<section class="six wide centered column">
+<section class="row">
+	<article class="ui eight wide centered column">
 
 			
 					
@@ -39,9 +39,11 @@
 						    </div>
 						<?php //endif; ?>
 						<label>Login</label>
-					      <div class="ui icon input">
+					      <div class="ui corner labeled input">
 					        <input type="text" placeholder="Login" required >
-					        <i class="user icon"></i>
+					        <div class="ui corner label teal">
+							    <i class="user icon black"></i>
+							  </div>
 					      	
 					      </div>
 					     
@@ -57,10 +59,13 @@
 						    </div>
 						<?php //endif; ?>
 					      <label>Senha</label>
-					      <div class="ui  icon input">
+					      <div class="ui  corner labeled input">
 					        <input type="password" placeholder="******" required>
-					        <i class="lock icon"></i>
+					        <div class="ui corner label teal">
+							    <i class="lock icon black "></i>
+							</div>
 					      </div>
+
 					    </div>
 					  <!-- </div> -->
 					 
@@ -69,12 +74,13 @@
 		    </div>
 		
 		</form>	
-	</section>
+	</article>
+</section>
 
 </main>
 
 <!-- jQuery for semantic js-->
- <script src="../extra_libs/jQuery/jquery-1.11.3.min.js"></script>
- <script src="../extra_libs/Semantic/dist/semantic.min.js"></script>
+ <script src="extra_libs/jQuery/jquery-2.1.4.min.js"></script>
+ <script src="extra_libs/Semantic/dist/semantic.min.js"></script>
 </body>
 </html>
