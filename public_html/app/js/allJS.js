@@ -71,5 +71,5 @@ $('.left.sidebar')
         };
 
 
-          $('#v-previsto-progress').progress();
+  $('#v-previsto-progress').progress();
   $('#v-gasto-progress').progress();
