@@ -6,11 +6,13 @@
 
 <i class="list icon"></i>
 	<div class="content">
-	Contas
+	Despesas
 
   </div>
-<a href="#" class="addicon" title="Adicionar Conta">
+<a href="#" title="Adicionar Despesa" class="addicon">
+
   <i class="plus icon inverted green icone"></i> 
+
 </a>
 </h3>
 
@@ -20,12 +22,12 @@
 
 	
 
-<div class="ui selection list listViGeral">
+<div class="ui selection relaxed list listViGeral">
   <a class="item">
-   <div class="ui right floated teal label">R$ 100</div>
-    <i class="dollar icon teal"></i>
+   <div class="ui right floated red label">R$ 100</div>
+    <i class="minus icon red"></i>
     <div class="content">
-      <div class="header">Conta 1
+      <div class="header">Despesa 1
   
         
     </div>
@@ -34,10 +36,10 @@
   </a>
 
   <a class="item">
-   <div class="ui right floated teal label">R$ 100</div>
-    <i class="dollar icon teal"></i>
+   <div class="ui right floated red label">R$ 100</div>
+    <i class="minus icon red"></i>
     <div class="content">
-      <div class="header">Conta 2
+      <div class="header">Despesa 2
   
         
     </div>
@@ -46,10 +48,10 @@
   </a>
 
   <a class="item">
-   <div class="ui right floated teal label">R$ 100</div>
-    <i class="dollar icon teal"></i>
+   <div class="ui right floated red label">R$ 100</div>
+    <i class="minus icon red"></i>
     <div class="content">
-      <div class="header">Conta 3
+      <div class="header">Despesa 3
   
         
     </div>
@@ -59,10 +61,10 @@
 
 
   <a class="item">
-   <div class="ui right floated teal label">R$ 100</div>
-    <i class="dollar icon teal"></i>
+   <div class="ui right floated red label">R$ 100</div>
+    <i class="minus icon red"></i>
     <div class="content">
-      <div class="header">Conta 4
+      <div class="header">Despesa 4
   
         
     </div>
