@@ -112,6 +112,6 @@
  <script src="extra_libs/jQuery/jquery-2.1.4.min.js"></script>
  <script src="extra_libs/Semantic/dist/semantic.min.js"></script>
  <script src="extra_libs/Chart.js/Chart.js"></script>
- <script src="/js/allJS.js"></script> 
+ <script src="js/allJS.js"></script> 
 </body>
 </html>

@@ -16,7 +16,7 @@
 
 	
 
-<div class="ui  list listViGeral ">
+<div class="ui selection list listViGeral ">
   <a class="item">
    <div class="ui right floated inverted teal label">R$ 100</div>
     <i class="dollar icon teal"></i>
