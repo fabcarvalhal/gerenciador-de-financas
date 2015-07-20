@@ -222,5 +222,4 @@
 
 </article>
 <!-- Fim orçamentos -->
-
-
+<script src="js/graficohome.js" type="text/javascript" charset="utf-8" async defer></script>

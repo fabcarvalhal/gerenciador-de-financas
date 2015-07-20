@@ -9,9 +9,12 @@ main{
 
 .qlqr{
 	float:right;
-
+	
 }
 
+.displayresp{
+	display: none;
+}
 .ui .form input[type='text']:focus{
 	border-color:teal;
 	border-left-width:0.2em;

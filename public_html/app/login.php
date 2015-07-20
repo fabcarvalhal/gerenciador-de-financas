@@ -14,7 +14,7 @@
 
 			
 					
-		<form action="" method="POST" accept-charset="utf-8">
+		<form name="logform"   accept-charset="utf-8">
 				
 		
 			<div class="ui fluid form segment">
@@ -30,17 +30,14 @@
 
 					    <div class="required field">
 					      
-					       <?php
-					       $usrClass = 'block'; 
-					      	//if(isset($errorUser)):
-					       ?>
-					        <div class="ui inverted red pointing qlqr below label" display='<?=$userClass?>' >
-						    	 Login inválido
+					  	<div class="displayresp" id="displayresplog">
+					        <div class="ui inverted red pointing qlqr below label ivldlog"  >
+						    	 
 						    </div>
-						<?php //endif; ?>
+						</div>
 						<label>Login</label>
 					      <div class="ui corner labeled input">
-					        <input type="text" placeholder="Login" required >
+					        <input type="text" placeholder="Login" name="login" id="log-ipt">
 					        <div class="ui corner label teal">
 							    <i class="user icon black"></i>
 							  </div>
@@ -49,18 +46,16 @@
 					     
 					    </div>
 					    <div class="required field">
-					       <?php
-					        $pasrClass = 'block';  
-					      	//if(isset($errorPass)):
-					      		
-					       ?>
-					        <div class="ui inverted red pointing qlqr below label " display='<?=$pasrClass?>'>
-						    	 Senha Inválida
+					     
+					    <div class="displayresp" id="displayresppass">  
+					        <div class="ui inverted red pointing qlqr below label ivldpass" display="none">
+						    	 
 						    </div>
-						<?php //endif; ?>
+						</div>
+
 					      <label>Senha</label>
 					      <div class="ui  corner labeled input">
-					        <input type="password" placeholder="******" required>
+					        <input type="password" placeholder="******" name="senha"  id="pass_ipt">
 					        <div class="ui corner label teal">
 							    <i class="lock icon black "></i>
 							</div>
@@ -69,7 +64,7 @@
 					    </div>
 					  <!-- </div> -->
 					 
-				<input type="submit" name="login-btn" value="Entrar" class="ui teal fluid button" >
+				<button class="ui teal fluid button" id="btn-login">Login</button>
 				
 		    </div>
 		
@@ -82,5 +77,6 @@
 <!-- jQuery for semantic js-->
  <script src="extra_libs/jQuery/jquery-2.1.4.min.js"></script>
  <script src="extra_libs/Semantic/dist/semantic.min.js"></script>
+ <script src="js/allJS.js" type="text/javascript" charset="utf-8" async defer></script>
 </body>
 </html>
