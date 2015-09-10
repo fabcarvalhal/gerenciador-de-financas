@@ -3,7 +3,7 @@ body{
 }
 
 main{
-	margin-top: 10%;
+	margin-top: 13%;
 	
 
 }
@@ -316,3 +316,10 @@ header .menu .item{
 	}
 }
 
+@media screen and (max-width: 990px) {
+
+	main{
+		margin-top: 20%;
+	}
+
+}
