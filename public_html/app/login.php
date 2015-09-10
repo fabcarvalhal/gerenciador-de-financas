@@ -14,7 +14,7 @@
 
 			
 					
-		<form name="logform"   accept-charset="utf-8">
+		<form name="logform" id="logform"  accept-charset="utf-8">
 				
 		
 			<div class="ui fluid form segment">
@@ -38,7 +38,7 @@
 						<label>Login</label>
 					      <div class="ui corner labeled input">
 					        <input type="text" placeholder="Login" name="login" id="log-ipt">
-					        <div class="ui corner label teal">
+					        <div class="ui corner label teal" id="cornerlog">
 							    <i class="user icon black"></i>
 							  </div>
 					      	
@@ -56,7 +56,7 @@
 					      <label>Senha</label>
 					      <div class="ui  corner labeled input">
 					        <input type="password" placeholder="******" name="senha"  id="pass_ipt">
-					        <div class="ui corner label teal">
+					        <div class="ui corner label teal" id="cornerpass">
 							    <i class="lock icon black "></i>
 							</div>
 					      </div>
@@ -64,7 +64,7 @@
 					    </div>
 					  <!-- </div> -->
 					 
-				<button class="ui teal fluid button" id="btn-login">Login</button>
+				<button class="ui teal fluid button" id="btn-login" disabled>Login</button>
 				
 		    </div>
 		
@@ -78,5 +78,16 @@
  <script src="extra_libs/jQuery/jquery-2.1.4.min.js"></script>
  <script src="extra_libs/Semantic/dist/semantic.min.js"></script>
  <script src="js/allJS.js" type="text/javascript" charset="utf-8" async defer></script>
+ <script type="text/javascript">
+	var inputs = $('input');
+
+	// Chama a função de verificação quando as entradas forem modificadas
+	// Usei o 'keyup', mas 'change' ou 'keydown' são também eventos úteis aqui
+	inputs.on('keyup',function(){
+
+	  verifinputs(inputs);
+
+	});
+ </script>
 </body>
 </html>

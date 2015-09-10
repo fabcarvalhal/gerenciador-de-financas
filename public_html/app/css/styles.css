@@ -86,6 +86,7 @@ header .menu .item{
 
 #canvas-holder{
         width:30%;
+        display: inline-block;
         position: relative;
         float: left;
         margin-left: 10%;
@@ -99,7 +100,7 @@ header .menu .item{
 	margin-top: 10%;
 }
 .doughnut-legend li span {
-  display: block;
+  display: inline-block;
   width: 14px;
   height: 14px;
 
@@ -127,7 +128,6 @@ header .menu .item{
 
 .comm-how {
   display: inline-block;
-
   color : #979797;
   width : 25px;
   text-align: right;
