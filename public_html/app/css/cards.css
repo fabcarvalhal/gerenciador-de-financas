@@ -161,6 +161,7 @@ ul li i {
 	font-weight: bold;
 	text-align: center;
 	vertical-align: middle;
+	width: 100px;
 
 
 
@@ -172,9 +173,6 @@ ul li i {
 	margin-top: 4px;
 }
 
-.listviGeral a:{
-	text-decoration: none;
-}
 
 
 .listviGeral span.listviItem{
@@ -288,11 +286,12 @@ header .menu .item{
 }
 
 .rodape{
-	position:static;
 	width: 100%;
 	background-color:#000;
 	height: 40px;
 	color:#fff;
+	position: fixed;
+	bottom: 0;
 }
 
 /* medias */
@@ -329,4 +328,32 @@ header .menu .item{
 		margin-top: 23%;
 	}
 
+}
+
+@media screen and (max-width: 430px){
+
+	main{
+		margin-top: 30%;
+	}
+
+	.box-icon .fa-3x{
+		font-size: 2em;
+	}
+
+	.box-icon{
+		width: 80px;
+		height: 80px;
+	}
+
+	.info h4{
+		font-size: 18px;
+	}
+
+	.listviGeral span.listviItem{
+		font-size: 15px;
+
+	}
+	ul.listviGeral{
+		margin-top: 8%;
+	}
 }
