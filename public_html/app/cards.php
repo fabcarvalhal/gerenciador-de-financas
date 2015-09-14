@@ -1,3 +1,6 @@
+<?php 
+	include 'funcoes.php';
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -25,35 +28,35 @@
         <p class="username">Nome</p>
       </h4>
  
-      <a class="item">
+      <a class="item" href="<?=linkMenu('homecard')?>">
         <i class="dashboard icon"></i>
         Início
       </a>
-      <a class="item">
+      <a class="item" href="<?=linkMenu('contascard')?>">
         <i class="university icon"></i>
         Contas
       </a>
-      <a class="item">
+      <a class="item" href="<?=linkMenu('receitascard')?>">
         <i class="add icon"></i>
         Receitas
       </a>
-      <a class="item">
+      <a class="item" href="<?=linkMenu('despesascard')?>">
         <i class="minus icon"></i>
         Despesas
       </a>
-      <a class="item">
+      <a class="item" href="<?=linkMenu('orcamentoscard')?>">
         <i class="tasks icon"></i>
         Orçamentos
       </a>
-      <a class="item">
+      <a class="item" href="<?=linkMenu('configuracoescard')?>">
         <i class="setting icon"></i>
         Configurações
       </a>
 </div><!-- Sidebar fim-->
-
+<div class="pusher">
 <div class="container">
 
-		<div class="pusher">
+		
 
 
 			    <header class="row">
@@ -75,7 +78,7 @@
 		          </div>
 		     
 		</header>
-		</div>
+		
 		<!--top menu finish-->
 
 
@@ -91,7 +94,7 @@
       if(isset($_GET['page'])){
         $_GET['page'] = addslashes($_GET['page']);
 
-        if(file_exists($_GET['page'].'.php'))
+        if(file_exists($_GET['page'].'.php') && true === paginasPermitidas())
           include($_GET['page'].'.php');
         else
           include('404.php');
@@ -104,8 +107,9 @@
 
 	
 </main>
-</div>
 
+</div><!--container-->
+</div><!--pusher-->
 
 <footer class="rodape">
 	<small>© Copyright 2015, Fabricio Silva Carvalhal </small>

@@ -11,7 +11,7 @@
 					
 							<ul class="listviGeral">
 								<li>
-									<a href="#" title="">
+									<a href="#" title="" class="item-container">
 										<div class="listitemBox">
 
 											<span class="listviItem">
@@ -28,7 +28,7 @@
 
 								<li>
 									
-									<a href="#" title="">
+									<a href="#" title="" class="item-container">
 										<div class="listitemBox">
 
 											<span class="listviItem">
@@ -45,7 +45,7 @@
 
 								
 									<li>
-										<a href="#" title="">
+										<a href="#" title="" class="item-container">
 											<div class="listitemBox">
 
 												<span class="listviItem">
@@ -85,7 +85,7 @@
 						
 						<ul class="listviGeral">
 							<li>
-								<a href="#" title="">
+								<a href="#" title="" class="item-container">
 										<div class="listitemBox">
 
 											<span class="listviItem">
@@ -100,7 +100,7 @@
 									</a>
 							</li>
 							<li>
-								<a href="#" title="">
+								<a href="#" title="" class="item-container">
 										<div class="listitemBox">
 
 											<span class="listviItem">
@@ -115,7 +115,7 @@
 									</a>
 							</li>
 							<li>
-								<a href="#" title="">
+								<a href="#" title="" class="item-container">
 										<div class="listitemBox">
 
 											<span class="listviItem">
@@ -188,7 +188,7 @@
 						<h4 class="text-center">Orçamento do Mês</h4>
 						<ul class="listviGeral">
 							<li>
-								<a href="#" title="">
+								<a href="#" title="" class="item-container">
 										<div class="listitemBox">
 
 											<span class="listviItem">
@@ -203,7 +203,7 @@
 									</a>
 							</li>
 							<li>
-								<a href="#" title="">
+								<a href="#" title="" class="item-container">
 										<div class="listitemBox">
 
 											<span class="listviItem">
@@ -218,7 +218,7 @@
 									</a>
 							</li>
 							<li>
-								<a href="#" title="">
+								<a href="#" title="" class="item-container">
 										<div class="listitemBox">
 
 											<span class="listviItem">
