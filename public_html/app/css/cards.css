@@ -1,5 +1,6 @@
 body{
 	border-style: border-box;
+	background-color: #f7f7f7;
 }
 
 main{
@@ -19,6 +20,7 @@ p.username {
 	text-align: right;
 	display: block;
 	margin-bottom: 13%;
+	background: white;
 
 }
 
@@ -163,7 +165,6 @@ ul li i {
 	line-height: 1;
 	border-radius: .2rem;
 	font-size: .9rem;
-	margin-top: 4px;
 	font-weight: bold;
 	text-align: center;
 	vertical-align: middle;
@@ -317,9 +318,8 @@ header .menu .item{
 	line-height: 1;
 	border-radius: 0 .2rem .2rem 0;
 	font-size: .9rem;
-	margin-top: 4px;
 	font-weight: bold;
-	text-align: cbenter;
+	text-align: center;
 	vertical-align: middle;
 	color: white;
 
@@ -334,7 +334,6 @@ header .menu .item{
 	padding: .56em .65em;
 	line-height: 1;
 	font-size: .9rem;
-	margin-top: 4px;
 	font-weight: bold;
 	text-align: center;
 	vertical-align: middle;
@@ -355,6 +354,10 @@ header .menu .item{
 .valorItem,
 .delete-icon{
 		margin-top:0;
+}
+
+.form-add-container{
+	text-align: left;
 }
 
 /* medias */

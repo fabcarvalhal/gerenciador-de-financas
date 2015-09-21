@@ -3,7 +3,7 @@
 /**
  * [linkMenu gera o link no menu lateral]
  * @param  [string] $nomePagina  [nome da pagina desejada]
- * @return [escreve]             [não retorna nada, apenas escreve]
+ * @return [boolean]             
  */
 function linkMenu($nomePagina){
   if(isset($_GET['page']) && $_GET['page'] != $nomePagina){
@@ -17,21 +17,22 @@ function linkMenu($nomePagina){
 }//linkmenu
 
 function paginasPermitidas(){
-	// $paginas = array('cards','homecard','despesascard','contascard');
+	$permitidas = array('cards','homecard','despesascard','contascard','addcontacard');
+	if(!isset($_GET['allow'])){
+		if(!isset($_GET['page'])){
+			$pagina = 'homecard';
+		}else{
+			$pagina = $_GET['page'];
+		}
+			
+		if(true === in_array($pagina,$permitidas)){
+			return true;
+		}else{
+			return false;
+		}
 
-	// if(true === in_array($_GET['page'],$paginas)){
-	// 	return true;
-	// }else{
-	// 	return false;
-	// }
-	ob_start();
-	include 'despesascard.php';
-	$pagina = ob_get_contents();
-	ob_end_clean();
-	if(isset($token) && $token == '123'){
-		return true;
 	}else{
-		return false;
+		return true;
 	}
 }
 ?>

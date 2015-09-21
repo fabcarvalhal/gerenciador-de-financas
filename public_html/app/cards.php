@@ -1,4 +1,4 @@
-<?php 
+<?php
 	include 'funcoes.php';
 ?>
 <!DOCTYPE html>
