@@ -12,6 +12,7 @@
 	<link rel="stylesheet" type="text/css" href="extra_libs/font-awesome/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="css/cards.css">
 	<link rel="stylesheet" type="text/css" href="extra_libs/Semantic/dist/semantic.css">
+	<link rel="stylesheet" type="text/css" href="extra_libs/pick-a-color/build/1.2.3/css/pick-a-color-1.2.3.min.css">
 
 
 </head>
@@ -115,9 +116,15 @@
 	<small>© Copyright 2015, Fabricio Silva Carvalhal </small>
 </footer>
  <script src="extra_libs/jQuery/jquery-2.1.4.min.js"></script> 
+	<script src="extra_libs/pick-a-color/src/js/pick-a-color.js"></script>
   <script src="extra_libs/Chart.js/Chart.js"></script>
 	<script src="extra_libs/Semantic/dist/semantic.min.js" type="text/javascript" charset="utf-8" async defer></script>
+	<?php 
+  		if(!isset($_GET['page']) || $_GET['page'] == "" || $_GET['page'] == 'index' || $_GET['page'] =='home'):
+ 	?>
 	<script src="js/graficohome.js" type="text/javascript" charset="utf-8" async defer></script>
+	<?php endif; ?>
+	<script src="extra_libs/pick-a-color/build/dependencies/tinycolor-0.9.15.min.js"></script>
 	<script type="text/javascript">
 		$('.triggerSide').click(function(){
 
@@ -127,7 +134,18 @@
 		  .sidebar('show')
 		;
 		});
-
+		$(document).ready(function () {
+  		  $(".pick-a-color").pickAColor({
+  		  	showHexInput: false,
+  		  	showAdvanced: false
+  		  });
+  		});
+$(document).delegate(".input","focus", function(event) {
+  $(this).prev('label').css('color', 'teal').css('transition','.2s all ease-in-out');
+});
+$(document).delegate(".input","focusout", function(event) {
+  $(this).prev('label').css('color', '#000').css('transition','.2s all ease-in-out');
+});
 	</script>
 </body>
 </html>

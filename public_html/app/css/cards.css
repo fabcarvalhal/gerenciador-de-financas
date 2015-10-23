@@ -431,3 +431,25 @@ header .menu .item{
 		padding: .5rem .48rem;
 	}
 }
+
+
+.form-add-container input {
+	border-radius: 0;
+	border: none;
+	box-shadow: 0 2px 0px #c0c0c0 !important;
+	opacity: .7;
+	box-shadow: none;
+}
+
+
+.input:focus{
+	box-shadow: 0 2px 0px teal !important;
+	border:none;
+	outline: 0 !important;
+	transition: .2s all ease-in-out;
+}
+
+.input:focus + label{
+	color: teal;
+}
+

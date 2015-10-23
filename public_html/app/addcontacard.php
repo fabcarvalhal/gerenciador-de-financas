@@ -20,7 +20,7 @@
 									<div class="col-md-6">
 										
 										<label class="control-label" for="Nome-conta">Nome:<sup class="red">*</sup></label>
-										<input class="form-control" type="text" name="nome-conta" value="">
+										<input class="form-control input" type="text" name="nome-conta" value="">
 									</div>			
 								</div>	
 
@@ -28,11 +28,17 @@
 									<div class="col-md-6">
 										
 										<label class="control-label" for="Nome-conta">Tipo:<sup class="red">*</sup></label>
-										<select name="" class="ui fluid dropdown">
-											<option value=""></option><option value=""></option><option value=""></option><option value=""></option>
+										<select name="" class="form-control">
+											<option value=""></option>
+											<option value=""></option>
+											<option value=""></option>
+											<option value=""></option>
 											
 										</select>
 									</div>			
+								</div>
+								<div class="form-group">
+									<input type="text" class="pick-a-color form-control">
 								</div>			
 								
 
