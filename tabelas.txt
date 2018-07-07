@@ -1,0 +1,63 @@
+tabelas:
+
+usuarios -- 
+id_usuario
+nome_usuario
+login_usuario
+senha_usuario
+
+
+contas -- 
+id_conta
+id_tipo
+id_usuario
+nome_conta
+fundos_conta
+
+
+despesas --
+id_despesa
+id_conta
+id_categoria
+id_usuario
+nome_despesa
+data_despesa
+pago_despesa
+fixa_despesa
+valor_despesa
+
+
+
+categorias_despesas --
+id_categoria
+nome_categoria
+cor_categoria
+
+
+
+receitas -- 
+id_receita
+id_conta
+id_categoria
+id_usuario
+data_receita
+nome_receita
+recebido_receita
+fixa_receita
+valor_receita
+
+
+
+categorias_receitas --
+id_categoria
+nome_categoria
+cor_categoria
+
+
+orcamentos
+
+id_orcamento
+id_usuario
+data_orcamento
+meta_orcamento
+padrao_orcamento
